@@ -1,0 +1,41 @@
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Ignore intermediate build folders & CMake leftover
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.vcxproj*
+*.sln
+
+# Ignore editor swap/backups
+*~
+*.swp
+*.swo
+
+# Ignore logs and dumps
+*.log
+*.dmp
+*.stackdump
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+htmlcov/
+coverage.xml
+*.gcda
+*.gcno
