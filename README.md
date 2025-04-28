@@ -23,3 +23,6 @@ This project implements core Redis functionality with a focus on performance opt
 - Implement additional Redis commands (e.g., `DEL`, `INCR`, `EXPIRE`)  
 - Add persistence options (RDB/AOF)  
 - Improve concurrency handling (thread pools, sharding)
+
+## Benchmarking
+Performance is measured in containerized environments using Docker to ensure consistent testing conditions. Benchmarks are run using the standard redis-benchmark tool against both this implementation and Redis 7 for direct comparison.
